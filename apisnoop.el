@@ -24,6 +24,7 @@
 
 ;;; Code:
 
+;;;###autoload
 (defun apisnoop/insert-ticket-template ()
   "Inserts contents of the \"ticket-template.org\" file stored in your current directory."
   (interactive)
